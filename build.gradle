@@ -5,11 +5,11 @@ allprojects {
     compileJava.options.encoding = 'UTF-8'
     compileTestJava.options.encoding = 'UTF-8'
 
-    sourceCompatibility = 1.8
-    targetCompatibility = 1.8
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 
-    version 'v4.8.1'
-    group 'com.github.TeamNewPipe'
+    version = 'v4.8.1-fix1'
+    group = 'com.github.EkVairagi'
 
     repositories {
         mavenCentral()
